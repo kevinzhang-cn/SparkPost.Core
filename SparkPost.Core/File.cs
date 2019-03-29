@@ -34,7 +34,8 @@ namespace SparkPost
             if (content != null)
             {
                 result.Data = Convert.ToBase64String(content);
-                result.Type = MimeMapping.GetMimeMapping(name);
+                result.Type = MimeKit.MimeTypes.GetMimeType(name);
+                // result.Type = MimeMapping.GetMimeMapping(name);
                 result.Name = name;
             };
             return result;
