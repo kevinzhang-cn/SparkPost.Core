@@ -1,5 +1,5 @@
 # SparkPost.Core
-A DotNetCore 2.1 version of SparkPost class library transferred from https://github.com/darrencauthon/csharp-sparkpost
+A DotNetCore 3.1 version of SparkPost class library transferred from https://github.com/darrencauthon/csharp-sparkpost
 
 # C# Library for [SparkPost](https://www.sparkpost.com)
 
